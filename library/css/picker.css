@@ -1,0 +1,140 @@
+#centerer:not(h2) {
+    font-family: 'Montserrat';
+}
+
+#tag_cloud {
+    width: 80%;
+    background: lightblue;
+    margin: 0px auto;
+    padding: 20px;
+    overflow-y: hidden;
+    margin-bottom: 30px;
+    padding-top: 0px;
+}
+
+    #tag_cloud h1 {
+        margin-top: 5px;
+    }
+
+.tag_container {
+    border: solid white 1px;
+    padding: 10px;
+    float: left;
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+    .tag_container:hover {
+        -moz-transition: all .2s ease-in;
+    	-o-transition: all .2s ease-in;
+    	-webkit-transition: all .2s ease-in;
+    	transition: all .2s ease-in;
+        background: white;
+        cursor: pointer;
+	color: black
+    }
+
+    .tag_container h3 {
+        margin: 0px!important;
+    }
+
+#results_window {
+    width: 80%;
+    background:lightgray;
+    margin: 0px auto;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+#inner_results_window {
+    width: 80%;
+    min-width: 425.828px;
+    background: lightgray;
+    margin: 0px auto;
+    padding: 5px;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border: solid black 1px;
+}
+
+.result_container {
+    width: 98%;
+    height: 50px;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    border: solid black 1px;
+    margin-bottom: 3px;
+    background: white;
+}
+
+.result_container:hover {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+    /* background: blue; */
+    -webkit-box-shadow:inset 5px 0px 0px 0px rgb(28, 41, 84);
+    -moz-box-shadow:inset 5px 0px 0px 0px rgb(28, 41, 84)0;
+    box-shadow:inset 5px 0px 0px 0px rgb(28, 41, 84);
+
+    color: darkgray;
+    cursor: pointer;
+}
+
+    .score_container {
+        float: right;
+        margin-right: 5px;
+        margin-top: 5px;
+        color: black;
+        font-weight: bold;
+        background: white;
+        padding: 10px;
+    }
+
+.result_container img {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.result_container p {
+    float: left;
+    margin-top: 5px;
+}
+
+.address {
+    font-size: 10px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+ /* scrollbar styles */
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

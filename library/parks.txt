@@ -1,0 +1,23 @@
+{"parks":[    
+
+    {"name":"Sun Park", "address":"16 Forest Ave, Paramus, NJ 07652", "url":"https://www.co.bergen.nj.us/parks-recreation-areas/van-saun-county-park", "thumbnail":"vansaun.jpg", "tags":["swimming", "archery"]},    
+
+    {"name":"Froggy Park", "address":"60 Gerard Ave, Mahwah, NJ 07430", "url":"https://www.co.bergen.nj.us/parks-recreation-areas/darlington-county-park", "thumbnail":"darlington.jpg", "tags":["camping", "archery"]},
+
+    {"name":"Overlook Park", "address":"40 Main Rd, Leonia, NJ 07605", "url":"https://www.co.bergen.nj.us/parks-recreation-areas/overpeck-county-park", "thumbnail":"overpeck.jpg", "tags":["swimming", "camping", "fishing", "archery"]},
+
+    {"name":"Other Park", "address":"123 Test Address", "url":"https://www.google.com", "thumbnail":"vansaun.jpg", "tags":["foo", "bar"]},    
+
+    {"name":"Fun Park", "address":"456 Test", "url":"https://www.google.com", "thumbnail":"darlington.jpg", "tags":["foo", "bar"]},
+
+    {"name":"Awesome Park", "address":"789 Test", "url":"https://www.google.com", "thumbnail":"overpeck.jpg", "tags":["foo", "swimming"]},
+
+    {"name":"Kidz Town", "address":"123 Test", "url":"https://www.google.com", "thumbnail":"vansaun.jpg", "tags":["foo", "bar"]},    
+
+    {"name":"Swimmerville", "address":"456 Test", "url":"https://www.google.com", "thumbnail":"darlington.jpg", "tags":["foo", "bar"]},
+
+    {"name":"Edwards Park", "address":"456 Test", "url":"https://www.google.com", "thumbnail":"darlington.jpg", "tags":["foo", "bar"]},
+
+    {"name":"Red Park", "address":"789 Test", "url":"https://www.google.com", "thumbnail":"overpeck.jpg", "tags":["foo", "bar"]}
+
+]}

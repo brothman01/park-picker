@@ -1,0 +1,17 @@
+Documentation:
+
+Created 5/19/2021
+
+
+This program allows citizens to choose the park that suits their needs with a simple tag-based search.  The data for the parks picker is stored in a JSON file and can be maintained easily by following the steps below.
+
+    I. Add a new Park
+
+	Open library/parks.txt, copy a previous row of the JSON array (not the last row) and copy it into the array in the desired order (not last because the last entry has no comma at the end)
+
+      	and change the new array entry to have all of the required information for the new park.
+
+
+    II. Add a new Tag
+
+	Open library/js/picker.js, add the text of the new tag to the array 'tags'.
